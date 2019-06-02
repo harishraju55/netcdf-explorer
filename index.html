@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>NetCDF Explorer!</title>
+
+    <link rel="stylesheet" href="./style_components/bulma/bulma/css/bulma.css">
+     <link rel="stylesheet" href="./style_components/font-awesome/css/font-awesome.min.css">
+     <link rel="stylesheet" href="main.css">
+     <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+
+  </head>
+  <body>
+    <div class="admin">
+
+      <header class="admin__header">
+        <a href="#" class="logo">
+          <h1>NetCDF Explorer</h1>
+        </a>
+        <div class="toolbar">
+        </div>
+      </header>
+
+      <nav class="admin__nav">
+          <div class="container">
+                <div class="row">
+                  <div class="col">
+                      <label for="fname" class="custom-file-upload btn">
+                          <i class="fas fa-file-import"></i> import file
+                      </label>
+                      <input id="fname" type="file"/>
+                  </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <div class="custom-file-upload btn" style="cursor: auto;" id="dispfname"></div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <button class="custom-file-upload btn" id="fsub">read file  
+                          <i class="fas fa-sync fa-spin" id="fileSpin"></i>
+                          <i class="fa fa-check-circle green-check" id="fileCheck"></i>
+                        </button>
+                    </div>
+                </div>
+                <div class="row">
+                  <div class="col">
+                      
+                    <div class="select is-warning" id="varSelection">
+                      <select id="mySelect">
+                        <option value="" selected disabled hidden>select variable </option>
+                      </select>
+                    </div>
+                    <i class="fas fa-sync fa-spin" style="font-size:20px;" id="varSpin"></i>
+                    <i class="fa fa-check-circle green-check" style="font-size:20px;" id="varCheck"></i>
+                  </div>
+                </div>
+          </div>
+      </nav>
+
+      <main class="admin__main">
+          <div class="dashboard">
+              <div class="dashboard__item dashboard__item--full">
+              <div class="polaroid" id="imgSec">
+                  <img id="varImg" src="" alt="" style="width:100%"/>
+                  <div class="texttainer">
+                      <p>
+                          <ul id="varDesc"></ul>
+                      </p>
+                  </div>
+                </div>
+              </div>
+          </div>
+      </main>
+
+      <footer class="admin__footer">
+        <span>
+          &copy; 2019 Harrisburg University of Science and Technology.
+        </span>
+      </footer>
+    </div>
+    <script>
+      // You can also require other files to run in this process
+      // jQuery
+      $ = require('jquery')
+      require('./renderer.js')
+    </script>
+  </body>
+</html>

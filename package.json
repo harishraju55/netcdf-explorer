@@ -1,0 +1,30 @@
+{
+  "name": "netcdf-explorer",
+  "version": "1.0.0",
+  "description": "An Electron application to open contents of a NETCDF wrfout files",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": "https://github.com/harishraju55/netcdf-explorer",
+  "keywords": [
+    "Electron",
+    "quick",
+    "start",
+    "tutorial",
+    "demo"
+  ],
+  "author": "GitHub",
+  "license": "CC0-1.0",
+  "devDependencies": {
+    "electron": "^5.0.0"
+  },
+  "dependencies": {
+    "bulma": "^0.7.4",
+    "font-awesome": "^4.7.0",
+    "gulp": "^4.0.1",
+    "jquery": "^3.4.0",
+    "python-shell": "^1.0.7",
+    "yarn": "^1.15.2"
+  }
+}
