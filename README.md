@@ -9,15 +9,15 @@ Similar to the "NCVIEW" which is a widely used application to visualize the netC
 
 Please remember application is still in developement state.
 
-Make sure you have NodeJS and Python installed on your machine.
+* Make sure you have NodeJS and Python installed on your machine.
 
-Clone the project.
+* Clone the project.
 
-Naviagte to the project directory.
+* Naviagte to the project directory.
 
-Run this command: npm install && npm start
+* Run this command: npm install && npm start
 
-Use a sample netCDF wrfout file: https://www.ncl.ucar.edu/Applications/Data/
+Use a sample netCDF wrfout file, You can find one here: https://www.ncl.ucar.edu/Applications/Data/
 
 
 ### Technology stack - Electron and Python
