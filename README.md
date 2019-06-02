@@ -8,3 +8,7 @@ Similar to the "NCVIEW" which is a widely used application to visualize the netC
 ## Technology stack - Electron and Python
 
 Electron is a non conventional technology to create desktop applications that can run on all operating systems.
+
+## current working application screen shot.
+
+![working_screen_shot](https://user-images.githubusercontent.com/9789209/58766371-d55a0a00-854b-11e9-8a3c-575722a78028.png)
