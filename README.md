@@ -5,6 +5,8 @@ Project motivation is to create a desktop application that can read netCDF files
 
 Similar to the "NCVIEW" which is a widely used application to visualize the netCDF formatted files.
 
+ncview: http://meteora.ucsd.edu/~pierce/ncview_home_page.html
+
 ### How to run
 
 Please remember application is still in developement state.
@@ -13,7 +15,7 @@ Please remember application is still in developement state.
 
 * Clone the project.
 
-* Naviagte to the project directory.
+* Naviagte to the project directory (i.e /netcdf-explorer).
 
 * Run commands: 
     * npm install
@@ -28,14 +30,17 @@ Electron is a non conventional framework to create desktop applications that can
 
 ### current working application screen shot.
 
-![working_screen_shot](https://user-images.githubusercontent.com/9789209/58766371-d55a0a00-854b-11e9-8a3c-575722a78028.png)
+![screenshot2](https://user-images.githubusercontent.com/9789209/59543009-b312a580-8ed6-11e9-820d-8896eb74f4d2.jpg)
 
 
 ### To Do
 
-* require cleanup and adjustments in CSS.
-* multiple packaging issues, unable to generate python executables for the two python files.
+* require cleanup and adjustments in CSS. currently referenced this for css : https://mxb.dev/blog/css-grid-admin-dashboard/
+* packaging issues, unable to generate python executables for the two python files.
+* packaging is not accepting custom icon.
 
 ### Next
 
-* More capabilities.
+* Additional capabilities.
+   * able to read different versions of netCDF files.
+   * grib files.
