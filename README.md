@@ -1,5 +1,5 @@
 # netcdf-explorer
-Desktop application to view NetCDF wrfout files (python + electron) that can be used on most of the operating systems.
+This is a Desktop application to view NetCDF wrfout files (python + electron) that can be used on most of the operating systems.
 
 Project motivation is to create a desktop application that can read netCDF files. And allow the user to choose a variable from the list of available variables from that file. 
 
@@ -15,14 +15,16 @@ Please remember application is still in developement state.
 
 * Naviagte to the project directory.
 
-* Run this command: npm install && npm start
+* Run commands: 
+    * npm install
+    * npm start
 
 Use a sample netCDF wrfout file, You can find one here: https://www.ncl.ucar.edu/Applications/Data/
 
 
 ### Technology stack - Electron and Python
 
-Electron is a non conventional technology to create desktop applications that can run on all operating systems.
+Electron is a non conventional framework to create desktop applications that can run on all operating systems.
 
 ### current working application screen shot.
 
