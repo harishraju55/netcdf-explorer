@@ -35,7 +35,7 @@ Electron is a non conventional framework to create desktop applications that can
 
 ### To Do
 
-* require cleanup and adjustments in CSS. currently referenced this for css : https://mxb.dev/blog/css-grid-admin-dashboard/
+* require cleanup and adjustments in CSS. currently referenced css from: https://mxb.dev/blog/css-grid-admin-dashboard/
 * packaging issues, unable to generate python executables for the two python files.
 * packaging is not accepting custom icon.
 
