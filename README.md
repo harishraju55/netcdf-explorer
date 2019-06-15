@@ -13,7 +13,7 @@ Please remember application is still in developement state.
 
 * Make sure you have NodeJS and Python installed on your machine.
 
-* Clone the project.
+* Clone or download the project.
 
 * Naviagte to the project directory (i.e /netcdf-explorer).
 
