@@ -24,6 +24,7 @@
     "font-awesome": "^4.7.0",
     "gulp": "^4.0.1",
     "jquery": "^3.4.0",
+    "netcdfjs": "^1.0.0",
     "python-shell": "^1.0.7",
     "yarn": "^1.15.2"
   }

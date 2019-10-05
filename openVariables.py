@@ -28,19 +28,24 @@ def main():
     lines = read_in()
     WRFOUT_FILE_PATH = lines[0]
 
-    varslist = []
+    v3dvarslist = []
+    v1dvarslist = []
     try:
         wrfdataset = netCDF4.Dataset(WRFOUT_FILE_PATH, 'r')
         for name, variable in wrfdataset.variables.items():
+            v1dvarslist.append({'value': name, 'name': name})
             if len(variable.dimensions) == 3:
-                varslist.append({'value': name, 'name': name})
+                v3dvarslist.append({'value': name, 'name': name})
+
     except:
         hdfdataset = h5py.File(WRFOUT_FILE_PATH, mode='r')
         for name in hdfdataset.keys():
             if len(variable.dimensions) == 3 or len(variable.dimensions) == 2:
-                varslist.append({'value': name, 'name': name})
+                v3dvarslist.append({'value': name, 'name': name})
 
-    print(json.dumps(varslist))
+    var_list = {'V3D': v3dvarslist, 'V1D': v1dvarslist}
+
+    print(json.dumps(var_list))
 
 # Start process
 if __name__ == '__main__':

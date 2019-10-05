@@ -298,3 +298,10 @@ div.polaroid {
   font-size:20px; 
   color: green
 }
+
+.box-section {
+  width: 300px;
+  border: 5px solid #dc5a60;
+  margin: 0;
+  padding: 0.5rem 1rem;
+}

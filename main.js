@@ -2,6 +2,7 @@
 const {app, BrowserWindow, ipcMain} = require('electron')
 const path = require('path')
 const {PythonShell} = require('python-shell')
+const fs = require('fs');
 
 
 // Keep a global reference of the window object, if you don't, the window will
@@ -60,6 +61,21 @@ ipcMain.on('fpath-varName-channel', (e, fvar) => {
       e.sender.send('var-content-channel', message)
   });
   pyshell2.end(function (err,code,signal) {
+    if (err) throw err;
+  });
+})
+
+
+// skew-T or vertical sounding plots.
+ipcMain.on('sounding-request-channel', (e, fvar) => {
+
+  var pyshell3 = new PythonShell('verticalSounding.py', { mode: 'json'});
+  pyshell3.send([fvar.fpath, fvar.lat, fvar.lon]);
+  pyshell3.on('message', function (message) {
+      e.sender.send('sounding-response-channel', message)
+  });
+
+  pyshell3.end(function (err,code,signal) {
     if (err) throw err;
   });
 })
