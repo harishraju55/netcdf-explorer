@@ -44,3 +44,4 @@ Electron is a non conventional framework to create desktop applications that can
 * Additional capabilities.
    * able to read different versions of netCDF files.
    * grib files.
+ netcdf-explorer-v2
