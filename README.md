@@ -33,8 +33,7 @@ Electron is a non conventional framework to create desktop applications that can
 ![screenshot2](https://user-images.githubusercontent.com/9789209/59543009-b312a580-8ed6-11e9-820d-8896eb74f4d2.jpg)
 
 Vertical Sounding feature.
-![Uploading netcdf_explorer_capture2.jpg…]()
-
+![netcdf_explorer_capture2](https://user-images.githubusercontent.com/9789209/66272212-dd48f400-e834-11e9-8887-b9821d145334.jpg)
 ### To Do
 
 * require cleanup and adjustments in CSS. currently referenced css from: https://mxb.dev/blog/css-grid-admin-dashboard/
