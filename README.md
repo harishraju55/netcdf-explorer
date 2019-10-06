@@ -32,6 +32,8 @@ Electron is a non conventional framework to create desktop applications that can
 
 ![screenshot2](https://user-images.githubusercontent.com/9789209/59543009-b312a580-8ed6-11e9-820d-8896eb74f4d2.jpg)
 
+Vertical Sounding feature.
+![Uploading netcdf_explorer_capture2.jpg…]()
 
 ### To Do
 
